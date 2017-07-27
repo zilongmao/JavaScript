@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<script src="../js/Day0629.js" type="text/javascript" charset="utf-8"></script>
+		<title>算法训练</title>
+		<h1>基础算法一百题</h1><br /><br /><br /><br />
+	</head>
+
+	<body>
+		<HR style="FILTER: alpha(opacity=100,finishopacity=0,style=3)" width="100%" color=red SIZE=1>
+		<p id="p1">有1、2、3、4个数字，能组成多少个互不相同且无重复数字的三位数？都是多少？ </p>
+		<input type="button" name="" id="b1" value="点击输出" onclick="ott()" />
+		<br /><br />
+		<HR style="FILTER: alpha(opacity=100,finishopacity=0,style=3)" width="100%" color=red SIZE=1>
+		
+		<p id="p2">企业发放的奖金根据利润提成。利润(I)低于或等于10万元时，奖金可提10%；利润高 于10万元，低于20万元时，低于10万元的部分按10%提成，高于10万元的部分，可可提 成7.5%；20万到40万之间时，高于20万元的部分，可提成5%；40万到60万之间时高于 40万元的部分，可提成3%；60万到100万之间时，高于60万元的部分，可提成1.5%，高于 100万元时，超过100万元的部分按1%提成，从键盘输入当月利润I，求应发放奖金总数？</p>
+		请输入月利润<input type="text" name="" id="t2" value="" style="width: 100px;"/> 
+		<input type="button" name="" id="b2" value="点击输出奖金" onclick="getComm()"/>
+		<br /><br />
+		<HR style="FILTER: alpha(opacity=100,finishopacity=0,style=3)" width="100%" color=red SIZE=1>
+		
+		<p id="p3">一个整数，它加上100后是一个完全平方数，再加上168又是一个完全平方数，请问该数是多少？</p>
+		<input type="button" name="" id="b3" value="点击输出该数字" onclick="msgNum()"/>
+		<br /><br />
+		<HR style="FILTER: alpha(opacity=100,finishopacity=0,style=3)" width="100%" color=red SIZE=1>
+	
+		<p id="p4">输入某年某月某日，判断这一天是这一年的第几天？ </p>
+		<input type="text" name="" id="t4-1" value="" style="width: 35px;"/>年
+		<input type="text" name="" id="t4-2" value="" style="width: 35px;"/>月
+		<input type="text" name="" id="t4-3" value="" style="width: 35px;"/>日
+		<input type="button" name="" id="b4" value="点击输出" onclick="whatDay()"/>
+		<br /><br />
+		<HR style="FILTER: alpha(opacity=100,finishopacity=0,style=3)" width="100%" color=red SIZE=1>
+
+		<p id="p5">输入三个整数x,y,z，请把这三个数由小到大输出。 </p>
+		第一个数：<input id="t5-1" onkeyup="if(this.value.length==1){this.value=this.value.replace(/[^1-9]/g,'')}else{this.value=this.value.replace(/\D/g,'')}" onafterpaste="if(this.value.length==1){this.value=this.value.replace(/[^1-9]/g,'')}else{this.value=this.value.replace(/\D/g,'')}" style="width: 35px;">
+		第二个数：<input id="t5-2" onkeyup="if(this.value.length==1){this.value=this.value.replace(/[^1-9]/g,'')}else{this.value=this.value.replace(/\D/g,'')}" onafterpaste="if(this.value.length==1){this.value=this.value.replace(/[^1-9]/g,'')}else{this.value=this.value.replace(/\D/g,'')}" style="width: 35px;">
+		第三个数：<input id="t5-3" onkeyup="if(this.value.length==1){this.value=this.value.replace(/[^1-9]/g,'')}else{this.value=this.value.replace(/\D/g,'')}" onafterpaste="if(this.value.length==1){this.value=this.value.replace(/[^1-9]/g,'')}else{this.value=this.value.replace(/\D/g,'')}" style="width: 35px;">
+		<input type="button" name="" id="b5" value="点击输出" onclick="smallToBig()"/>
+		<br /><br />
+		<HR style="FILTER: alpha(opacity=100,finishopacity=0,style=3)" width="100%" color=red SIZE=1>
+		
+		<p id="p8">输出乘法口诀表 </p>
+		请输入数值：<input id="t8" onkeyup="if(this.value.length==1){this.value=this.value.replace(/[^1-9]/g,'')}else{this.value=this.value.replace(/\D/g,'')}" onafterpaste="if(this.value.length==1){this.value=this.value.replace(/[^1-9]/g,'')}else{this.value=this.value.replace(/\D/g,'')}" style="width: 35px;">
+		<input type="button" name="" id="b8" value="点击输出" onclick="nineNine()"/>
+		<br /><br />
+		<HR style="FILTER: alpha(opacity=100,finishopacity=0,style=3)" width="100%" color=red SIZE=1>
+		
+		<p id="p11">兔子生崽 </p>
+		请输入月数：<input id="t11" onkeyup="if(this.value.length==1){this.value=this.value.replace(/[^1-9]/g,'')}else{this.value=this.value.replace(/\D/g,'')}" onafterpaste="if(this.value.length==1){this.value=this.value.replace(/[^1-9]/g,'')}else{this.value=this.value.replace(/\D/g,'')}" style="width: 35px;">
+		<input type="button" name="" id="b11" value="点击输出" onclick="rabbitMonth2()"/>
+		<br /><br />
+		<HR style="FILTER: alpha(opacity=100,finishopacity=0,style=3)" width="100%" color=red SIZE=1>
+
+	</body>
+</html>
